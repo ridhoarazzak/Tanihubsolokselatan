@@ -3,12 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#059669" />
+    <meta name="description" content="Aplikasi Pertanian Digital Solok Selatan - Jual Beli & Konsultasi AI" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="TaniHub Solsel" />
+    
     <title>TaniHub Solok Selatan</title>
+    
+    <!-- Link to Manifest for PWA features -->
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/628/628283.png" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       /* Custom font setup usually goes here, using system sans for speed */
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        overscroll-behavior-y: none; /* Prevents pull-to-refresh on mobile app feel */
       }
       /* Hide scrollbar for clean UI but keep functionality */
       .no-scrollbar::-webkit-scrollbar {
