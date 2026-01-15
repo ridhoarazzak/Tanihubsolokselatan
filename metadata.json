@@ -1,0 +1,8 @@
+{
+  "name": "TaniHub Solok Selatan",
+  "description": "Platform digital pertanian terintegrasi untuk Kabupaten Solok Selatan. Menghubungkan petani lokal dengan pasar, menyediakan konsultasi AI cerdas untuk diagnosa tanaman, dan informasi harga pasar terkini.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
